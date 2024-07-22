@@ -1,0 +1,4 @@
+.images{ 
+    clip-path: polygon(51% 0, 100% 48%, 54% 100%, 0 55%);
+    background-position: center;
+}

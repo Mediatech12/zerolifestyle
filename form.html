@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="logo"><img src="./nts" alt=""></div>
+        <div class="title">Candidate Portal</div>
+        <form action="#">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Fullname</span>
+                    <input type="text" placeholder="Enter your name" required>
+                </div>
+               
+                <div class="input-box">
+                    <span class="details">CNIC  </span>
+                    <input id="phone" type="text" pattern="^[0-9]{5}-[0-9]{7}-[0-9]{1}$" placeholder="xxxxx-xxxxxxx-x" >
+                    
+                </div>
+                <div class="input-box">
+                    <span class="details">phone number</span>
+                    <input id="phone" type="tel"  placeholder="xxx-xxx-xxxx" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                </div>
+                <div class="input-box">
+                    <span class="details">Email</span>
+                    <input type="text" placeholder="Enter your email" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">password</span>
+                    <input type="text" placeholder="Enter your paasword" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">confirm password</span>
+                    <input type="text" placeholder="Enter your paasword" required>
+                </div>
+            </div>
+            <div class="select-option">
+                <input type="radio" name="Option" id="dot-1">
+                <input type="radio" name="Option" id="dot-2">
+                <span class="option-title">Option</span>
+                <div class="category">
+                    <label for="dot-1">
+                        <span class="dot one"></span>
+                        <span class="pakistani">pakistani</span>
+                    </label>
+                    <label for="dot-2">
+                        <span class="dot two"></span>
+                        <span class="foreigner">foreigner</span>
+                    </label>
+                </div>
+            </div>
+            <div class="button">
+                <input type="submit" value="Register">
+            </div>
+        </form>
+    </div>
+    
+</body>
+
+</html>

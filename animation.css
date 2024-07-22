@@ -1,0 +1,24 @@
+.animate{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    margin-top: 50px;
+    margin-left: 50px;
+    animation: scaleImage 20s linear infinite;
+  }
+
+@keyframes  scaleImage{
+    0%{  left: 0; top:0px;}
+    10%{left: 40px;top: 0px;}
+    20%{left: 70px;top: 30px;}
+    30%{left:90px; top: 50px;}
+    40%{left:110px; top: 70px;}
+    50%{left:130px; top: 80px;}
+    60%{left:150px; top: 90px;}
+    70%{left:170px; top: 100px;}
+    80%{left:190px; top: 120px;}
+    90%{left:210px; top: 130px;}
+    100%{left:1350px; top: 0px;}
+
+}
